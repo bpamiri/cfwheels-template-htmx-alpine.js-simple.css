@@ -38,7 +38,7 @@
     },
     "dependencies":{
         "cfwheels":"2.4.0-dev",
-        "cfwheels-htmx-plugin":"x"
+        "cfwheels-htmx-plugin":"^1.0.0"
     },
     "private":false,
     "license":[
