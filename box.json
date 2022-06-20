@@ -1,10 +1,10 @@
 {
-    "name":"CFWheels Base Template",
-    "version":"2.4.0-dev",
-    "author":"CFWheels Core Team and Community, repackaged by Peter Amiri",
-    "shortDescription":"CFWheels MVC Framework Base Template",
+    "name":"CFWheels Template - HTMX - Alpine.js - Simple.css",
+    "version":"1.0.0",
+    "author":"Peter Amiri",
+    "shortDescription":"CFWheels Template that incorporates HTMX, Alpine.js, and Simple.css",
     "location":"forgeboxStorage",
-    "slug":"cfwheels-base-template",
+    "slug":"cfwheels-template-htmx-alpine-simple",
     "createPackageDirectory":false,
     "type":"cfwheels-templates",
     "keywords":[
@@ -12,15 +12,17 @@
         "rails",
         "wheels",
         "cfwheels",
-        "core"
+        "core",
+        "htmx",
+        "alpine",
+        "simple.css"
     ],
-    "homepage":"https://cfwheels.org/",
-    "documentation":"https://docs.cfwheels.org/",
+    "homepage":"https://github.com/bpamiri/cfwheels-template-htmx-alpine.js-simple.css",
     "repository":{
         "type":"git",
-        "URL":"https://github.com/cfwheels/cfwheels"
+        "URL":"https://github.com/bpamiri/cfwheels-template-htmx-alpine.js-simple.css"
     },
-    "bugs":"https://github.com/cfwheels/cfwheels/issues",
+    "bugs":"https://github.com/bpamiri/cfwheels-template-htmx-alpine.js-simple.css/issues",
     "contributors":[
         "Peter Amiri <peter@alurium.com>"
     ],
@@ -31,10 +33,12 @@
         "commandbox-cfformat":"*"
     },
     "installPaths":{
-        "cfwheels":"wheels/"
+        "cfwheels":"wheels/",
+        "cfwheels-htmx-plugin":"plugins/htmx/"
     },
     "dependencies":{
-        "cfwheels":"2.4.0-dev"
+        "cfwheels":"2.4.0-dev",
+        "cfwheels-htmx-plugin":"x"
     },
     "private":false,
     "license":[
